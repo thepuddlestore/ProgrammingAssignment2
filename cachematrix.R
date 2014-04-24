@@ -12,7 +12,7 @@
 ## inverse of matrix "x". getsolve() prints the value of the cache "inverse". Finally, list() coerces 
 ## each of those four functions into the output for makeCacheMatrix(), a list.
 
-makeCacheMatrix <- function(x = matrix()) {   ## makeCacheMatrix() takes an argument, "x", which will be coerced into a matrix
+makeCacheMatrix <- function(x = matrix()) {   ## makeCacheMatrix() takes an argument, "x"
         inverse <- NULL                       ## "inverse" is initiated and assigned NULL
         setmatrix <- function(y) {  
                 x <<- y                       ## setmatrix() takes an argument, "y", and super-assigns it to "x"
