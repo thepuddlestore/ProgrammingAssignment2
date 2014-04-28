@@ -40,6 +40,6 @@ cacheSolve <- function(x, ...) {              ## cacheSolve() takes an argument,
     return(inverse)                           ## and the value of "inverse" is returned
   }
   data <- x$getmatrix()                       ## otherwise, the value of x$getmatrix() (a square, invertible matrix) is assigned to a placeholder variable, "data"
-  inverse <- x$setsolve(data)                 ## x$setsolve() is then called on "data" to assign assigns its inverse value to "inverse"
+  inverse <- x$setsolve(data)                 ## x$setsolve() is then called on "data" to assign its inverse value to "inverse"
   inverse                                     ## finally, the value of "inverse" is printed
 }
